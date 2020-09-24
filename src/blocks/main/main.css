@@ -1,0 +1,14 @@
+@import url("./__title/title.css");
+
+.main {   
+   display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  /* min-height: 100vh; */
+  max-width: 1440px;
+  font-family: 'Exo2.0-Thin', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+}

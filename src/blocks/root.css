@@ -1,0 +1,12 @@
+@import url('./main/main.css');
+@import url('./items-container/items-container.css');
+.root {
+  box-sizing: border-box;
+  background-image: url("../images/Patternbg.png");
+  background-attachment: fixed;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

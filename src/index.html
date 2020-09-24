@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Test Task FunBox</title>
+
+    <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css %>" />
+  </head>
+
+  <body class="root">
+    <section class="main">
+      <h2 class="main__title">Ты сегодня покормил кота?</h2>
+      <div class="items-container">
+        <template id="items-container" display: none>
+
+        <div class="items-container__item">
+           <div class="items-container__corner-clip"></div>
+          <div class="items-container__cover" >
+           <div class="items-container__content">
+             <p class="items-container__content-text">Сказочное заморское яство</p>
+             <h2 class="items-container__content-title">Нямушка</h2>
+             <h3 class="items-container__content-subtitle">с фуа-гра</h2>
+             <p class="items-container__content-stock">10 порций
+              мышь в подарок</p>
+              <img src="<%= require('./images/PhotoCat.png').default%>" alt="котэ" class="items-container__content-img">
+              <div class="items-container__content-weightbg"><p class="items-container__content-weight">0,5 <span class="items-container__conten-weight-units">кг</span></p></div>
+           </div>
+         </div>
+          <p class="items-container__note">Чего сидишь? Порадуй котэ, <a href="#" class="items-container__note-link"> купи.</a></p>
+        </div>
+      </template>
+      </div>
+        
+
+    </section>
+
+    <script type="module" src="<%= htmlWebpackPlugin.files.js %>"></script>
+  </body>
+</html>

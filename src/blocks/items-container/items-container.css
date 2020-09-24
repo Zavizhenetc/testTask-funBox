@@ -1,0 +1,22 @@
+@import url('./__item/items-container__item.css');
+@import url('./__note/items-container__note.css');
+@import url('./__cover/items-container__cover.css');
+@import url('./__note-link/items-container__note-link.css');
+@import url('./__corner-clip/items-container__corner-clip.css');
+@import url('./__content/items-container__content.css');
+@import url('./__content-text/items-container__content-text.css');
+@import url('./__content-title/items-container__content-title.css');
+@import url('./__content-stock/items-container__content-stock.css');
+@import url('./__content-img/items-container__content-img.css');
+@import url('./__content-subtitle/items-container__content-subtitle.css');
+@import url('./__content-weightbg/items-container__content-weightbg.css');
+@import url('./__content-weight/items-container__content-weight.css');
+@import url('./__conten-weight-units/items-container__conten-weight-units.css');
+
+.items-container{
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: repeat( auto-fill, 320px);
+  /* grid-template-columns: repeat(auto-fit, minmax(240px, 320px)); */
+  grid-gap: 80px;
+}

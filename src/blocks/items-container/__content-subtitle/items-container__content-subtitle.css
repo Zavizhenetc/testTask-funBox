@@ -1,0 +1,9 @@
+.items-container__content-subtitle {
+  margin: 0;
+  padding-left: 13%;
+  text-align: start;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
