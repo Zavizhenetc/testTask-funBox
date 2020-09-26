@@ -1,3 +1,6 @@
 .items-container__conten-weight-units{
+  margin: 0;
+  margin-top: 13%;
   font-size: 18px;
+  color: white;
 }

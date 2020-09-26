@@ -1,5 +1,6 @@
 @import url('./main/main.css');
 @import url('./items-container/items-container.css');
+@import url('./selected/selected.css');
 .root {
   box-sizing: border-box;
   background-image: url("../images/Patternbg.png");
