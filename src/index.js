@@ -35,6 +35,8 @@ function cardSelected(evt) {
 }
 
 
-items.addEventListener("click", cardSelected)
 
+items.addEventListener("click", cardSelected)
+items.addEventListener("mouseover", cardSelected)
+items.addEventListener("mouseout", cardSelected)
 
